@@ -77,9 +77,15 @@ markdown_extensions:
 
 # Page tree
 nav:
-- Home: index.md
-- Symbol:
-  - Symbol: symbol.md
+- HOME: index.md
+- ML:
+  - LR: lr.md
+  - XGBOOST: xgboost.md
+- DL:
+  - CNN: cnn.md
+  - DNN: dnn.md
+  - RNN: rnn.md
+- ABOUT: about.md
 
 # Analytics
 
