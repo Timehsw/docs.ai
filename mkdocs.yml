@@ -1,1 +1,86 @@
-site_name: My Docs
+# Project information
+site_name: AI
+site_description: ml and dl
+site_author: hushiwei
+site_url: https://github.com/Timehsw/docs.ai
+
+# Repository
+repo_name: Timehsw/docs.ai
+repo_url: https://github.com/Timehsw/docs.ai
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2009 - 2018 TimeHsw'
+
+# Configuration
+theme:
+  name: 'mkdocs'
+
+  # 404 page
+  static_templates:
+  - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.ico
+  logo: assets/images/favicon.ico
+
+# Customization
+extra:
+  social:
+  - type: github-alt
+    link: https://gist.github.com/Timehsw/
+  - type: github
+    link: https://github.com/Timehsw
+  - type: h-square
+    link: http://dmlcoding.com/
+
+# Extensions
+markdown_extensions:
+- markdown.extensions.admonition
+- markdown.extensions.codehilite:
+    guess_lang: false
+- markdown.extensions.def_list
+- markdown.extensions.footnotes
+- markdown.extensions.meta
+- markdown.extensions.toc:
+    permalink: true
+- pymdownx.arithmatex
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_generator: !!python/name:pymdownx.emoji.to_svg
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+
+# Page tree
+nav:
+- Home: index.md
+- Symbol:
+  - Symbol: symbol.md
+
+# Analytics
+
+
